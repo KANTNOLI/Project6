@@ -5,7 +5,11 @@ int main() {
 	vector<UserData> info; 
 	bool addOrView = true; //add - true / view - false
 	int input;
-	cout << "Вы хотите посмотреть данные или добавить новые? 1 - просмотр | Другие клавиши - добаавление: ";
+
+
+
+
+	cout << "Просмотр данных - 1: Другие клавиши ДОБАВЛЕНИЕ";
 	cin >> input;
 
 	addOrView = input != 1;

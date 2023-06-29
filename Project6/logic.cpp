@@ -38,10 +38,10 @@ void addUserData() {
 	else {
 			cout << "¬ведите почту: ";
 			cin >> mail;
-			mail;
+			mail += " ";
 			cout << "¬ведите, откуда сохранен пароль: ";
 			cin >> social;
-			social;
+			social += " ";
 			cout << "¬ведите пароль: ";
 			cin >> password;
 			password;
@@ -119,6 +119,7 @@ string viewUserdata() {
 			temp = "";
 	}
 
+	msg += "\n\n";
 	return msg;
 }
 

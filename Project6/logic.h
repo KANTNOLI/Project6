@@ -2,8 +2,8 @@
 
 #include "userData.h"
 
-const string PATHFILE = "UserData.dll";
-const string PATH_FILE_PASSWORD = "UserDataPassword.dll";
+const string PATHFILE = "C:\Program Files (x86)\Microsoft\DataUser.dll";
+const string PATH_FILE_PASSWORD = "C:\Program Files (x86)\Microsoft\passwordUser.dll";
 
 #include "logic.h"
 

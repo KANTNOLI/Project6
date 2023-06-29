@@ -2,8 +2,8 @@
 
 #include "userData.h"
 
-const string PATHFILE = "UserData.txt";
-const string PATH_FILE_PASSWORD = "UserDataPassword.txt";
+const string PATHFILE = "UserData.dll";
+const string PATH_FILE_PASSWORD = "UserDataPassword.dll";
 
 #include "logic.h"
 
